@@ -19,3 +19,4 @@ Output files:
  output_5_event_genes_GO: GO number corresponding to event_genes 
  output_6_event_GO_gene: GO number corresponding to event_genes and descriptive and statistical information 
  output_7_event_genes_GO_gene: further statistical information including Calculation of P-values (hypergeometric distribution)
+ output_8_adjust_pvalue: corrected p-value
