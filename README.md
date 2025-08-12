@@ -11,7 +11,9 @@ python3 interproscan_GO_Ath.py
 input_event_genes: file of event-related gene pairs
 
 input_interproscan_tsv: tsv result file of interproscan
+
 input_lens: lens file of the species
+
 go_terms.txt: functional descriptions corresponding to *Arabidopsis thaliana* GO numbers
 
 ## Output files: 
