@@ -16,6 +16,23 @@ input_lens: lens file of the species
 
 go_terms.txt: functional descriptions corresponding to *Arabidopsis thaliana* GO numbers
 
+## Directory Structure
+
+```text
+project/
+├── input_event_genes/				# folder of files of event-related gene pairs
+│   ├── Gel_WGDE.txt
+│   └── ...
+├── input_interproscan_tsv/			# folder of tsv results file of interproscan
+│   ├── Gel.pep.tsv
+│   └── ...
+├── input_lens/					# lens file of the species (for background genes)
+│   ├── Gel.lens					
+│   └── ...
+├── interproscan_GO_Ath.py			# Main script
+├── go_terms.txt				# functional descriptions corresponding to *Arabidopsis thaliana* GO numbers
+└── README.md					# Project documentation and instructions
+
 ## Output files: 
 
 output_1_haveGO_line: line with GO number in tsv file
@@ -35,20 +52,5 @@ output_7_event_genes_GO_gene: further statistical information including Calculat
 output_8_adjust_pvalue: result list with corrected p-value
 
 
-## Directory Structure
 
-```text
-project/
-├── input_event_genes/				# folder of files of event-related gene pairs
-│   ├── Gel_WGDE.txt
-│   └── ...
-├── input_interproscan_tsv/			# folder of tsv results file of interproscan
-│   ├── Gel.pep.tsv
-│   └── ...
-├── input_lens/					# lens file of the species (for background genes)
-│   ├── Gel.lens					
-│   └── ...
-├── interproscan_GO_Ath.py			# Main script
-├── go_terms.txt				# functional descriptions corresponding to *Arabidopsis thaliana* GO numbers
-└── README.md					# Project documentation and instructions
 ```
