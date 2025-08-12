@@ -16,6 +16,7 @@ input_lens: lens file of the species
 
 go_terms.txt: functional descriptions corresponding to *Arabidopsis thaliana* GO numbers
 
+
 ## Directory Structure
 
 ```text
@@ -32,6 +33,7 @@ project/
 ├── interproscan_GO_Ath.py			# Main script
 ├── go_terms.txt				# functional descriptions corresponding to *Arabidopsis thaliana* GO numbers
 └── README.md					# Project documentation and instructions
+```
 
 ## Output files: 
 
@@ -51,6 +53,3 @@ output_7_event_genes_GO_gene: further statistical information including Calculat
 
 output_8_adjust_pvalue: result list with corrected p-value
 
-
-
-```
