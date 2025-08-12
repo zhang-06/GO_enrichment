@@ -17,7 +17,7 @@ input_lens: lens file of the species
 go_terms.txt: functional descriptions corresponding to *Arabidopsis thaliana* GO numbers
 
 
-## Directory Structure
+## Directory Structure of Input files
 
 ```text
 project/
